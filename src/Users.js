@@ -1,10 +1,11 @@
 import React from "react";
+import './Users.css';
 
 class Users extends React.Component{
     constructor(props){
         super(props);   
     }
-    
+
     render(){
         const lists = this.props.items.map((item)=>
         <tr key={item.rollno}>
